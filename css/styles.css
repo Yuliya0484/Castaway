@@ -8,6 +8,7 @@
   --color-text-color: rgba(255, 255, 255, 0.7);
   --color-blue: #118da8;
   --color-background: #191919;
+  --color-card-box: #000;
 }
 body {
   background-color: var(--color-background);
@@ -126,13 +127,11 @@ ul {
   line-height: 1.6;
 }
 /* ----View---- */
-.view-section {
-  padding: 92px 0 66px;
-}
 .view-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 62px;
 }
 .view-title {
   font-size: 64px;
@@ -149,7 +148,44 @@ ul {
   background-color: var(--color-blue);
   color: var(--color-text-color);
 }
-
+.card {
+  padding: 40px;
+  background-color: var(--color-card-box);
+  border-radius: 32px;
+  display: flex;
+  gap: 52px;
+  margin-bottom: 60px;
+}
+.text-link {
+  margin-bottom: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-text-color);
+  padding: 8px 16px;
+  background-color: var(--color-background);
+  border-radius: 6px;
+}
+.episode-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.59;
+  color: var(--color-blue);
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  margin-bottom: 28px;
+}
+.card-text {
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
 /* -------------OLD------------ */
 /* .button {
   cursor: pointer;
